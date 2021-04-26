@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>test</title>
+    <link rel="icon" href="https://cdn.asp.events/CLIENT_Dubai_Wo_4B15F265_5056_B739_54F3125D47F0BC95/companyProfiles/CA1730E-56D0-44DA-9091-C3A86A9C8399-logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <h1 class="text_logo">swiss</h1>
+      <form class="w-auto d-flex input-group">
+        <input
+          type="search"
+          class="form-control"
+          placeholder="search...."
+          aria-label="Search"
+        />
+        <div class="btn-group" role="group" style="margin-left: 1.2px;">
+          <button
+            id="btnGroupDrop1"
+            type="button"
+            class="btn btn-primary dropdown-toggle"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="font-size: 11.5px;"
+          >
+            type search
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><a class="dropdown-item" href="#">date</a></li>
+            <li><a class="dropdown-item" href="#">name</a></li>
+            <li><a class="dropdown-item" href="#">serial number</a></li>
+          </ul>
+        </div>
+      </form>
+      
+      <ul class="navbar-nav" style="margin-right: 10px;">
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            user name
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="left: -50px;">
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">content us</a></li>
+            <hr>
+            <li>
+              <a class="dropdown-item" href="#" style="margin-top: -16px;padding:13.5px;">Something else here</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <div class="pages"></div>
+  <section class="container content_report" style="max-height: 1000px;" >
+    <div class="report_two" >
+      <div class="header_report" style="margin-top: 5px;height: 75px">
+        <img src="img\title.png" height="100%" alt="">
+        <span class="title" style="color: #e53935;">سجل حياة ماكينة/ معده/جهاز<br>قسم صيانة لف المحركات</span>
+      </div>
+      <div class="body_report" style="height: 860px;">
+        <div class="content_b">
+          <table class="table">
+            <thead>
+              <tr>
+                <th style="width: 21px;font-size:13px;font-weight: 900;background-color: rgba(228, 50, 50, 0.671);text-align: center;">مالحظات</th>
+                <th style="width: 21px;font-size:13px;font-weight: 900;background-color: rgba(228, 50, 50, 0.671);text-align: center;"></th>
+                <th style="width: 21px;font-size:13px;font-weight: 900;background-color: rgba(228, 50, 50, 0.671);text-align: center;"></th>
+                <th style="width: 21px;font-size:13px;font-weight: 900;background-color: rgba(228, 50, 50, 0.671);text-align: center;">مكان عودة الموتور</th>
+                <th style="width: 21px;font-size:13px;font-weight: 900;background-color: rgba(228, 50, 50, 0.671);text-align: center;">تاريخ التركيب</th>
+                <th style="width: 21px;font-size:13px;font-weight: 900;background-color: rgba(228, 50, 50, 0.671);text-align: center;">تاريخ نهاية الاصلاح</th>
+                <th style="width: 21px;font-size:13px;font-weight: 900;background-color: rgba(228, 50, 50, 0.671);text-align: center;">مكان المعدة</th>
+                <th style="width: 21px;font-size:13px;font-weight: 900;background-color: rgba(228, 50, 50, 0.671);text-align: center;">رقم المعده</th>
+                <th style="width: 21px;font-size:13px;font-weight: 900;background-color: rgba(228, 50, 50, 0.671);text-align: center;">تاريخ نزول الموتور</th>
+                <th style="width: 21px;font-size:13px;font-weight: 900;background-color: rgba(228, 50, 50, 0.671);text-align: center;">سبب العطل</th>
+                <th style="width: 21px;font-size:13px;font-weight: 900;background-color: rgba(228, 50, 50, 0.671);text-align: center;">تاريخ بدية الاصلاح</th>
+                <th style="width: 21px;font-size:13px;font-weight: 900;background-color: rgba(228, 50, 50, 0.671);text-align: center;">تاريخ الابلاغ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+              <tr>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+                <td style="width: 21px;text-align: center;"></td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+      </div>
+    </div>
+</section>
+<br><br><br>
+
+  <div class="dropdown div_btn">
+    <button
+      class="btn btn-primary buton_drop"
+      type="button"
+      id="dropdownMenuButton"
+      data-mdb-toggle="dropdown"
+      aria-expanded="false"
+    >
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+    </svg>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <li><button class="btn btn-primary print" style="width: 100%;margin:2px;font-size: 11.5px;">print</button></li>
+      <li><button class="btn btn-success" style="width: 100%;margin:2px;font-size: 11.5px;">save</button></li>
+      <li><button class="btn btn-light" style="width: 100%;margin:2px;font-size: 11.5px;">update</button></li>
+    </ul>
+  </div>
+  
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/mdb.js"></script>
+    <!-- Custom scripts -->
+    <script>
+      
+      $(document).ready(function(){
+        var date_=new Date;
+        $('.year').val(date_.getFullYear());
+        $('.month').val(date_.getMonth());
+        $('.day').val(date_.getDay());
+      });
+    </script>
+  </body>
+</html>
+<!--  -->
